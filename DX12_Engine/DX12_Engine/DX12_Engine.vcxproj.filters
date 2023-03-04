@@ -16,10 +16,40 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source\pch">
+      <UniqueIdentifier>{5da0bf31-f3cc-4580-8a08-c89b2b765dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resoruces\Icons">
+      <UniqueIdentifier>{46e9ead4-bda2-4269-813b-f67d24bf9b1f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\WinMain.cpp">
       <Filter>Source\Private</Filter>
     </ClCompile>
+    <ClCompile Include="Source\pch.cpp">
+      <Filter>Source\pch</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\pch.h">
+      <Filter>Source\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resoruces</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DX12_Engine.rc">
+      <Filter>Resoruces</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Content\Icons\octopus.ico">
+      <Filter>Resoruces\Icons</Filter>
+    </Image>
+    <Image Include="icon1.ico">
+      <Filter>Resoruces</Filter>
+    </Image>
   </ItemGroup>
 </Project>
