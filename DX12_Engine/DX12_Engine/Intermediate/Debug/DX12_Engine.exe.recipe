@@ -2,6 +2,9 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+      <FullPath>E:\DX12\DX12_Engine\Build\Engine\Debug\Engine.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>E:\DX12\DX12_Engine\Build\DX12_Engine\Debug\DX12_Engine.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
