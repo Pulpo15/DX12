@@ -103,6 +103,7 @@ STRINGTABLE
 BEGIN
     IDS_PERGAMENAME         "BlankProject"
     IDS_WINDOWCLASS         "GameWindow"
+    IDS_SHORTNAME           "BP"
 END
 
 #endif    // Español (España, alfabetización internacional) resources

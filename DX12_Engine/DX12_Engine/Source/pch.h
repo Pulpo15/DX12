@@ -8,3 +8,5 @@
 #define HInstance() GetModuleHandle(NULL) //Macro to get service instance
 
 #include "Engine.h"
+
+#include "Common/Logger.h"
